@@ -9,6 +9,7 @@ public class MapGenerator : MonoBehaviour {
 	public int mapY;
 	public int mapX;
 
+	[Range(0,100)]
 	public float waterProbability;
 
 

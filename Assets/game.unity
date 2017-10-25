@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 218713561}
   - component: {fileID: 218713560}
   - component: {fileID: 218713559}
+  - component: {fileID: 218713563}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -192,6 +193,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &218713563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 218713558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553dddaa5e500d441b6f86ac9baecdfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1152537990
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,9 +235,9 @@ MonoBehaviour:
   - {fileID: 1134950286488496, guid: 7a73bca77cc91f54aab5f103f8a040a5, type: 2}
   - {fileID: 1534648899488000, guid: 8bef4ecc03940194a944a4d75d5c8f12, type: 2}
   water: {fileID: 1088649832773560, guid: 4ea5450204fda0b40ae3861ba7f73923, type: 2}
-  mapY: 100
-  mapX: 100
-  waterProbability: 15
+  mapY: 30
+  mapX: 30
+  waterProbability: 0
 --- !u!4 &1152537992
 Transform:
   m_ObjectHideFlags: 0
